@@ -1,0 +1,11 @@
+Execute (with no variable set):
+  unlet g:jira_url
+  AssertThrows jira#navigate('RMD-1234')
+
+Execute (without traling /):
+  let g:jira_url = 'https://rubiconmd.atlassian.net'
+  AssertEqual jira#url('RMD-1234'), 'https://rubiconmd.atlassian.net/browse/RMD-1234'
+
+Execute (with trailing /):
+  let g:jira_url = 'https://rubiconmd.atlassian.net/'
+  AssertEqual jira#url('RMD-1234'), 'https://rubiconmd.atlassian.net/browse/RMD-1234'
