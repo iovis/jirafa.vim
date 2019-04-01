@@ -1,3 +1,6 @@
+Before:
+  let g:jira_url = ''
+
 Execute (with no variable set):
   unlet g:jira_url
   AssertThrows jira#navigate('RMD-1234')
