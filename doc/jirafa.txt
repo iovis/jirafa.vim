@@ -1,0 +1,50 @@
+*jirafa.txt*  Open JIRA cards from Vim
+
+Author:  David Marchante <https://github.com/iovis9>
+License: Same terms as Vim itself (see |license|)
+Version: 1.0 (2019-03-27)
+
+This plugin is only available if 'compatible' is not set.
+
+==============================================================================
+CONTENTS                                                     *jirafa-contents*
+
+    1. Usage ................ |jirafa-usage|
+    2. Customisation ........ |jirafa-customisation|
+    3. Bugs ................. |jirafa-bugs|
+    4. Changelog ............ |jirafa-changelog|
+
+==============================================================================
+USAGE                                                           *jirafa-usage*
+
+                                                                       *:Jira*
+:Jira [card]
+                      Open [card] in your browser.
+                      Without [card] it'll try to parse it from the git
+                      branch.
+
+==============================================================================
+CUSTOMISATION                                           *jirafa-customisation*
+
+------------------------------------------------------------------------------
+                                                                  *g:jira_url*
+JIRA url.
+>
+    let g:jira_url = 'https://rubiconmd.atlassian.net/'
+>
+Or read it from an environment variable
+>
+    let g:jira_url = $JIRA_URL
+>
+==============================================================================
+BUGS                                                             *jirafa-bugs*
+
+Report any issues to https://github.com/iovis9/jirafa.vim/issues
+
+==============================================================================
+CHANGELOG                                                   *jirafa-changelog*
+
+Version 1.0: 2019-04-01
+  - Initial release
+
+vim:tw=78:ts=8:ft=help:norl:
