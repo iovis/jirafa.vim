@@ -1,0 +1,11 @@
+Execute (RMD-1234):
+  let card = jira#parse('RMD-1234')
+  AssertEqual card, 'RMD-1234'
+
+Execute (david/ZSFG-94_bring_follower_back):
+  let card = jira#parse('david/ZSFG-94_bring_follower_back')
+  AssertEqual card, 'ZSFG-94'
+
+Execute (dave/rmd-2872/too_many_NG_scrollbars):
+  let card = jira#parse('dave/rmd-2872/too_many_NG_scrollbars')
+  AssertEqual card, 'rmd-2872'
