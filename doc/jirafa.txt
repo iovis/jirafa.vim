@@ -1,6 +1,6 @@
 *jirafa.txt*  Open JIRA cards from Vim
 
-Author:  David Marchante <https://github.com/iovis9>
+Author:  David Marchante <https://github.com/iovis>
 License: Same terms as Vim itself (see |license|)
 Version: 1.0 (2019-03-27)
 
@@ -39,7 +39,7 @@ Or read it from an environment variable
 ==============================================================================
 BUGS                                                             *jirafa-bugs*
 
-Report any issues to https://github.com/iovis9/jirafa.vim/issues
+Report any issues to https://github.com/iovis/jirafa.vim/issues
 
 ==============================================================================
 CHANGELOG                                                   *jirafa-changelog*
